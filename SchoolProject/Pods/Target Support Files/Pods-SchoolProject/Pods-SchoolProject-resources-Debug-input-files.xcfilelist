@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SchoolProject/Pods-SchoolProject-resources.sh
+${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle
+${PODS_ROOT}/../../StudentFramework/StudentFramework/Views/Detail/StudentDetailViewController.xib
+${PODS_ROOT}/../../StudentFramework/StudentFramework/Views/Home/StudentHomeViewController.xib

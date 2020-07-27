@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-StudentFramework-StudentFrameworkTests/Pods-StudentFramework-StudentFrameworkTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/DeanFramework/DeanFramework.framework
+${BUILT_PRODUCTS_DIR}/StyleFramework/StyleFramework.framework

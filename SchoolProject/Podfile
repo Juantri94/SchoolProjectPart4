@@ -1,0 +1,50 @@
+platform :ios, '12.0'
+use_frameworks!
+
+def project_pods
+  pod 'StudentFramework', :path => '../StudentFramework'
+  pod 'StyleFramework', :path => '../StyleFramework'
+  pod 'DeanFramework', :path => '../DeanFramework'
+  pod 'Alamofire'
+end
+
+target 'SchoolProject' do
+
+  project_pods
+
+  target 'SchoolProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'SchoolProjectDebug' do
+  project_pods
+end
+
+target 'SchoolProjectPrerelease' do
+  project_pods
+end
+
+post_install do |installer|
+  
+  installer.pods_project.targets.each do |target|
+    if target.name == 'StudentFramework'
+      addTargetConfig(target)
+    end
+  end
+  
+end
+
+def addTargetConfig(target)
+  target.build_configurations.each do |config|
+    if config.name == 'Prerelease'
+      config.build_settings['SWIFT_ACTIVE_COMPILATION_CONDITIONS'] = 'PRE'
+      elsif config.name == 'Debug'
+      config.build_settings['SWIFT_ACTIVE_COMPILATION_CONDITIONS'] = 'DEBUG'
+      else
+      config.build_settings['SWIFT_ACTIVE_COMPILATION_CONDITIONS'] = 'RELEASE'
+    end
+  end
+end

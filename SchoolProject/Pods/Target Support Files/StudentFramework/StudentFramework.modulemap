@@ -1,0 +1,6 @@
+framework module StudentFramework {
+  umbrella header "StudentFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

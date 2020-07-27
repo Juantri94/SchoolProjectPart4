@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SchoolHomeViewController" customModule="SchoolProject" customModuleProvider="target">
+            <connections>
+                <outlet property="studentButton" destination="Oad-Hd-OLO" id="OyT-KR-lrw"/>
+                <outlet property="view" destination="iN0-l3-epB" id="T2C-zL-GX5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="8uj-7E-bGH">
+                    <rect key="frame" x="107" y="357" width="200" height="182"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oad-Hd-OLO">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="D95-Qg-ObS"/>
+                                <constraint firstAttribute="width" constant="200" id="yfK-g4-0JY"/>
+                            </constraints>
+                            <state key="normal" title="Open StudentFramework"/>
+                            <connections>
+                                <action selector="openStudentFramework:" destination="-1" eventType="touchUpInside" id="vGp-tO-4QX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3y-Bj-Ou5">
+                            <rect key="frame" x="0.0" y="66" width="200" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="SJs-mc-IsO"/>
+                                <constraint firstAttribute="height" constant="50" id="uKz-rX-NFH"/>
+                            </constraints>
+                            <state key="normal" title="Open Alert"/>
+                            <connections>
+                                <action selector="openAlert:" destination="-1" eventType="touchUpInside" id="xJG-Vs-woh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3l-EM-2vt">
+                            <rect key="frame" x="0.0" y="132" width="200" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="91U-gl-evx"/>
+                                <constraint firstAttribute="width" constant="200" id="DZ5-rv-4p9"/>
+                            </constraints>
+                            <state key="normal" title="Open Rating"/>
+                            <connections>
+                                <action selector="openRating:" destination="-1" eventType="touchUpInside" id="NAX-fj-g3I"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8uj-7E-bGH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KYI-BN-FQA"/>
+                <constraint firstItem="8uj-7E-bGH" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="vhg-oj-1ln"/>
+            </constraints>
+            <point key="canvasLocation" x="462" y="399"/>
+        </view>
+    </objects>
+</document>

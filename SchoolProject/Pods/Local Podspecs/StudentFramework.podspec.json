@@ -1,0 +1,36 @@
+{
+  "name": "StudentFramework",
+  "version": "0.0.1",
+  "summary": "A short description of StudentFramework.",
+  "description": "DESC",
+  "homepage": "http://EXAMPLE/StudentFramework",
+  "license": "MIT",
+  "authors": {
+    "Juan Trinidad Jimenez Armesto": "juantri94@hotmail.es"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "StudentFramework/**/*.{h,m,swift}",
+  "exclude_files": "",
+  "resources": "StudentFramework/**/*.{xib}",
+  "preserve_paths": "StudentFramework/**/*.{h,m,swift,xib}",
+  "static_framework": true,
+  "dependencies": {
+    "StyleFramework": [
+
+    ],
+    "DeanFramework": [
+
+    ],
+    "Alamofire": [
+
+    ],
+    "GoogleMaps": [
+
+    ]
+  }
+}

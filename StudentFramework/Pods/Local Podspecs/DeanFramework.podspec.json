@@ -1,0 +1,21 @@
+{
+  "name": "DeanFramework",
+  "version": "0.0.1",
+  "summary": "A short description of DeanFramework.",
+  "description": "DESC",
+  "homepage": "http://EXAMPLE/DeanFramework",
+  "license": "MIT",
+  "authors": {
+    "Juan Trinidad Jimenez Armesto": "juantri94@hotmail.es"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "DeanFramework/**/*.{h,m,swift}",
+  "exclude_files": "",
+  "resources": "DeanFramework/**/*.{xib}",
+  "preserve_paths": "DeanFramework/**/*.{h,m,swift,xib}"
+}

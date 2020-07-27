@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.0.2)
+  - DeanFramework (0.0.1)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - StyleFramework (0.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - DeanFramework (from `../DeanFramework`)
+  - GoogleMaps
+  - StyleFramework (from `../StyleFramework`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  DeanFramework:
+    :path: "../DeanFramework"
+  StyleFramework:
+    :path: "../StyleFramework"
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  DeanFramework: d937448d45011107a6d17cd239cea753325626c1
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  StyleFramework: 04abf3755ae501897d2df164536a02a072f46eae
+
+PODFILE CHECKSUM: e47aa446e16d7bf435b7efe8b58f5984190aa8a4
+
+COCOAPODS: 1.9.1

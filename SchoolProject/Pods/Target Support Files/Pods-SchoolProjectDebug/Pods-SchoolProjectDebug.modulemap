@@ -1,0 +1,6 @@
+framework module Pods_SchoolProjectDebug {
+  umbrella header "Pods-SchoolProjectDebug-umbrella.h"
+
+  export *
+  module * { export * }
+}

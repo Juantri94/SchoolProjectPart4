@@ -1,0 +1,24 @@
+{
+  "name": "StyleFramework",
+  "version": "0.0.1",
+  "summary": "A short description of StyleFramework.",
+  "description": "DESC",
+  "homepage": "http://EXAMPLE/StyleFramework",
+  "license": "MIT",
+  "authors": {
+    "Juan Trinidad Jimenez Armesto": "juantri94@hotmail.es"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "StyleFramework/**/*.{h,m,swift}",
+  "exclude_files": "",
+  "resources": "StyleFramework/**/*.{xib}",
+  "preserve_paths": "StyleFramework/**/*.{h,m,swift,xib}",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

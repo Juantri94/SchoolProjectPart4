@@ -1,0 +1,6 @@
+framework module DeanFramework {
+  umbrella header "DeanFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
