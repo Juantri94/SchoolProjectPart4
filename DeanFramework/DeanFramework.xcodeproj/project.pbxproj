@@ -151,8 +151,7 @@
 				1CAB252D24C2FD3600D9ED3E /* AlertViewModel.swift */,
 				1CAB252B24C2FD3600D9ED3E /* AlertRouter.swift */,
 			);
-			name = Alert;
-			path = "../New Group/Alert";
+			path = Alert;
 			sourceTree = "<group>";
 		};
 		1CAB252224C2FCC700D9ED3E /* Rating */ = {
